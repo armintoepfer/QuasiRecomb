@@ -59,7 +59,7 @@ If you are new to QuasiRecomb, please read the **[Beginners' guide to viral popu
 ## RUN:
 ### Local / Global reconstruction
  `java -jar QuasiRecomb.jar -i alignment.bam`
- Reads need to be properly aligned.
+ Reads need to be properly aligned and the aligment (BAM) needs to be indexed (BAI) .
 
 ### Conservative reconstruction
  `-conservative` 
